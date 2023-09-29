@@ -1,0 +1,91 @@
+/* styles.css */
+
+body {
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.grid {
+
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Outfit', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 24px;
+  color: hsl(218, 44%, 22%);
+  margin: 10px 0px;
+  line-height: 1.2;
+  padding: 5px 0px;
+  
+}
+
+p {
+  font-weight: 400;
+  font-size: 15px;
+  color: hsl(218, 44%, 22%);
+  padding: 10px;
+  margin: 10px 0px;
+  line-height: 1.4;
+}
+
+#qr-code {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+/* Add responsive styles for mobile devices */
+@media screen and (max-width: 375px) {
+
+  .card {
+    width: 90%;
+  }
+  
+}
+@media screen and (min-width: 375px) and (max-width: 1440px) {
+  .grid {
+    
+    max-width: 375px;
+    
+  }
+
+  .card {
+    width: 100%;
+  }
+  
+}
+@media screen and (min-width: 1440px) {
+  .grid {
+    
+    max-width: 375px;
+  }
+
+  .card {
+    width: 100%;
+  }
+  
+  
+}
+
+
